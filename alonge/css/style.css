@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: lightgreen;
+}
+.parent{
+    flex-wrap: wrap;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.parent a{
+    text-decoration: none;
+    padding-right: 20px;
+    /* padding-left: 10px; */
+    font-size: 20px;
+    color: black;
+    
+}
+#find{
+    font-size: 16px;
+}
+.About{
+    padding-left: 150px;
+    font-size: 30px;
+}
+.parent2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.parent2 img{
+    width: 300px;
+    border-radius: 50px;
+    margin-left: 180px;
+}
